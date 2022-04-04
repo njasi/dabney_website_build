@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.edf7e421.css",
+    "main.js": "/static/js/main.52b498ca.js",
+    "static/media/shadow_lines.png": "/static/media/shadow_lines.e66c273234a4d490242c.png",
+    "index.html": "/index.html",
+    "main.edf7e421.css.map": "/static/css/main.edf7e421.css.map",
+    "main.52b498ca.js.map": "/static/js/main.52b498ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edf7e421.css",
+    "static/js/main.52b498ca.js"
+  ]
+}

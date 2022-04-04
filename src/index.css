@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body,
+.root,
+.App {
+  height: 100%;
+  background-color: #e9ecef;
+  background-image: url("../public/images/shadow_lines.png");
+  background-repeat: repeat;
+  background-size: 50%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  text-align: center;
 }
+
+#responsive-navbar-nav {
+  flex-direction: row-reverse;
+}
+
+/* Modify the background color */
+.navbar-custom {
+  background-color: #092916 !important;
+  padding: 25px 0;
+}
+
+.mainContent {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  height: 100%;
+  box-shadow: 10px 10px 10px #00000028, -10px -5px 10px #00000028;
+  border-radius: 5px;
+}
+.carousel-caption {
+  /* background-color: rgba(0, 0, 0, 0.09); */
+  /* -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; */
+  text-shadow: 1px 1px #000000, -1px 1px #000000, -1px -1px #000000,
+    1px -1px #000000 !important;
+}
+
+.ReactGridGallery_tile-viewport {
+  box-shadow: 1px 1px 5px #00000028;
+}
+
+.ReactGridGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Modify brand and text color */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.about-blurb {
+  display: flex;
+}
+
+.about-blurb img {
+  flex-shrink: 0;
+  width: auto;
+  height: 10rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.406);
+}
+
+.about-blurb p {
+  padding: 20px;
+  align-self: center;
+}
+
+.small-gallery .ReactGridGallery{
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
