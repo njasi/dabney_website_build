@@ -60,6 +60,8 @@ h1{
 
 .about-blurb {
   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .about-blurb img {

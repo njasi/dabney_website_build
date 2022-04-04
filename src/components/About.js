@@ -10,7 +10,8 @@ function About() {
       <Container className="mainContent">
         <h1>About Us</h1>
         <div className="about">
-          <div className="about-blurb">
+          <div className="about-blurb flex-xs-column flex-sm-row">
+            <img src="./images/carousel/t_pose.jpg" />
             <p>
               Welcome to Dabney! Here, you can usually find people doing sets in
               the gazebo or library and hanging out in the lounge, talking or
@@ -20,9 +21,8 @@ function About() {
               darbs (as Dabney members are known) are artistically or musically
               inclined.
             </p>
-            <img src="./images/carousel/t_pose.jpg" />
           </div>
-          <div className="about-blurb">
+          <div className="about-blurb flex-xs-column flex-sm-row">
             <img src="./images/about/zombie_night_2.jpg" />
             <p>
               Surviving Caltech isn't always easy. Sometimes you just need to
@@ -37,7 +37,8 @@ function About() {
             </p>
           </div>
 
-          <div className="about-blurb">
+          <div className="about-blurb flex-xs-column flex-sm-row">
+            <img src="./images/about/mar_pumpkin.jpg" />
             <p>
               We hold some other large events, including the Pumpkin Drop, where
               we drop LN2 frozen pumpkins from the roof of the Caltech Hall to
@@ -46,8 +47,6 @@ function About() {
               to these large events we also plan smaller weekly social events at
               the start of each new term.
             </p>
-
-            <img src="./images/about/mar_pumpkin.jpg" />
           </div>
         </div>
       </Container>
